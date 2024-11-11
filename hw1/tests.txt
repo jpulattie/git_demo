@@ -1,0 +1,68 @@
+# luhn
+    invalid_num
+    valid_num
+    valid_num2
+
+# edge_cases
+    invalid_with_spaces
+    invalid_with_dashes
+
+# length
+    1 error
+    0 error
+
+# valid_test
+    valid_visa
+    valid_mastercard
+    valid_american_express
+
+# visa
+    invalid_length_14
+    invalid_length_15
+    invalid_length_17
+    invalid_prefix_3
+    invalid_prefix_3_and_leading_zeros
+    valid_prefix_4
+    valid_prefix_4_and_leading_zeros
+    invalid_prefix_5
+
+# mastercard
+    invalid_length_15 (starting with 51)
+    invalid_length_15_p2 (starting with 2222)
+    invalid_length_14
+    invalid_length_17
+    invalid_prefix_61
+    invalid_prefix_31
+    invalid_prefix_50
+    valid_prefix_51
+    valid_prefix_55
+    invalid_prefix_56
+    invalid_prefix_2220
+    valid_prefix_2221
+    valid_prefix_2222
+    invalid_prefix_2721
+    invalid_prefix_2723
+    valid_prefix_2720
+    valid_prefix_2719
+    invalid_prefix_2211
+    invalid_prefix_2730
+    invalid_prefix_2121
+    invalid_prefix_2820
+    invalid_prefix_1221
+    invalid_prefix_3720
+
+# american valid_american_express
+    invalid_length_14
+    invalid_length_14 (with correct leading numbers)
+    invalid_length_16
+    invalid_prefix_24
+    invalid_prefix_44
+    invalid_prefix_33
+    invalid_prefix_38
+    invalid_prefix_35
+    invalid_prefix_36
+    valid_prefix_34
+    valid_prefix_37
+
+
+
